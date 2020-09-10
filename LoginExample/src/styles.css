@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.css');
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+
+html {
+   height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    font-family: 'lato', sans-serif;
+    color: #fff;
+    background: rgb(10, 182, 76); 
+    background-color: transparent;
+    flex-direction: column;
+    display: flex;
+    letter-spacing: normal;
+    text-transform: none;
+    align-items: stretch;
+    font-size: 16px;
+    letter-spacing: normal;    
+    padding: 0px !important;
+    box-sizing: border-box;
+}

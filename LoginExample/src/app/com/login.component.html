@@ -1,0 +1,33 @@
+<div class="container">
+   
+    <div class="col-sm-8 offset-sm-2">
+        <img
+        width="100%"
+        alt="Pragati Buildcon"
+        src="/assets/images/home.jpg"
+      />
+      
+    <div class="logo">Login</div>
+    <div class="login-item">
+        <form class="form-login" [formGroup]="loginForm" (ngSubmit)="loginUser()">                        
+            <div class="form-field">
+                <label class="user" for="register-username"><span class="hidden">Name</span></label>
+                <input name="name" id="username" type="email" class="form-input" formControlName="name" placeholder="Name" required>
+          </div>
+            <div class="form-field">
+                <label class="user" for="login-email"><span class="hidden">Email</span></label>
+                <input name="email" id="login-email" type="email" formControlName="email" class="form-input" placeholder="Email" required>
+              </div>
+      
+              <div class="form-field">
+                <label class="lock" for="login-password"><span class="hidden">Password</span></label>
+                <input name="password" id="login-password" formControlName="password" type="password" class="form-input" placeholder="Password" required>
+              </div>
+              <div class="form-field">
+                <input type="submit" value="Log in">
+              </div>
+        </form>
+    </div>
+</div>    
+</div>
+
